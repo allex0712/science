@@ -1,0 +1,82 @@
+.homeTitle {
+    margin-top:25%;
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: antiquewhite;
+    margin-left: 37%;
+}
+
+.bodyHome {
+    background-color: #121212;
+}
+
+.homeButton {
+    float: left;
+    margin-top: -23%;
+    margin-left: 1%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.aButton {
+    float: left;
+    margin-top: -23%;
+    margin-left: 13%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.bButton {
+    float: left;
+    margin-top: -23%;
+    margin-left: 26%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.cButton {
+    float: left;
+    margin-left: 39%;
+    margin-top: -23%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.dButton {
+    float: left;
+    margin-left: 52%;
+    margin-top: -23%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.eButton {
+    float: left;
+    margin-left: 65%;
+    margin-top: -23%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
+
+.fButton {
+    float: left;
+    margin-left: 78%;
+    margin-top: -23%;
+    font-size:x-large;
+    color:chocolate;
+    border: none;
+    background-color: transparent;
+}
