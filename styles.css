@@ -83,15 +83,12 @@
 }
 
 .backImg {
-    margin-left: 50%;
-    margin-top: 50%;
-    margin-bottom: 50%;
-    margin-right: 50%;
+    margin-top: -5%;
 }
 
 .backImgS {
-    margin-left: 50%;
-    margin-top: 50%;
-    margin-bottom: 40%;
-    margin-right: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: antiquewhite;
 }
