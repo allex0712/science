@@ -5,6 +5,7 @@
     stroke-width: 1px;
     color: antiquewhite;
     margin-left: 37%;
+    z-index: 99;
 }
 
 .bodyHome {
@@ -16,7 +17,7 @@
     margin-top: -23%;
     margin-left: 1%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -26,7 +27,7 @@
     margin-top: -23%;
     margin-left: 13%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -36,7 +37,7 @@
     margin-top: -23%;
     margin-left: 26%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -46,7 +47,7 @@
     margin-left: 39%;
     margin-top: -23%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -56,7 +57,7 @@
     margin-left: 52%;
     margin-top: -23%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -66,7 +67,7 @@
     margin-left: 65%;
     margin-top: -23%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
 }
@@ -76,7 +77,18 @@
     margin-left: 78%;
     margin-top: -23%;
     font-size:x-large;
-    color:brown;
+    color:chocolate;
     border: none;
     background-color: transparent;
+}
+
+.backImg {
+    align-content: center;
+}
+
+.backImgS {
+    margin-left: 50%;
+    margin-top: 50%;
+    margin-bottom: 40%;
+    margin-right: 50%;
 }
