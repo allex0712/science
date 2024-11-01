@@ -5,6 +5,7 @@
     color: antiquewhite;
     z-index: 99;
     margin-bottom: 25%;
+    margin-top: -25%;
 }
 
 .bodyHome {
@@ -83,6 +84,7 @@
 
 .backImg {
     margin-bottom: 25%;
+    margin-top: -25%;
 }
 
 .backImgS {
