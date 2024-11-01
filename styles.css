@@ -5,7 +5,7 @@
     text-align: center;
     color: antiquewhite;
     z-index: 99;
-    margin-top: 0%;
+    margin-top: 0;
 }
 
 .bodyHome {
@@ -86,8 +86,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 200%;
-  margin-bottom: 0%;
+  margin-bottom: 0;
+  margin-top: 40%;
 }
 
 .backImgS {
@@ -95,6 +95,6 @@
     stroke: black;
     stroke-width: 1px;
     color: antiquewhite;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
