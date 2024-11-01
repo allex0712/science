@@ -7,10 +7,7 @@
     z-index: 99;
     margin-top: 0%;
 }
-body {
-    margin:0;
-    padding: 0; 
-}
+
 .bodyHome {
     background-color: #121212;
 }
@@ -89,7 +86,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height: 200%;
+  margin-bottom: 0%;
 }
 
 .backImgS {
@@ -97,4 +95,6 @@ body {
     stroke: black;
     stroke-width: 1px;
     color: antiquewhite;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
