@@ -1,14 +1,15 @@
 .homeTitle {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     stroke: black;
     stroke-width: 1px;
     text-align: center;
     color: antiquewhite;
     z-index: 99;
+    margin-top: 0%;
 }
 body {
     margin:0;
+    padding: 0; 
 }
 .bodyHome {
     background-color: #121212;
