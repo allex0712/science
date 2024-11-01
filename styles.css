@@ -1,11 +1,11 @@
 .homeTitle {
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     stroke: black;
     stroke-width: 1px;
     color: antiquewhite;
     z-index: 99;
-    margin-bottom: 25%;
-    margin-top: -25%;
+    padding: 10px;
 }
 
 .bodyHome {
@@ -83,8 +83,7 @@
 }
 
 .backImg {
-    margin-bottom: 25%;
-    margin-top: -25%;
+    margin-top: 50%;
 }
 
 .backImgS {
