@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <header class="headerHome">
     <link rel="stylesheet" type="text/css" href="/science/styles.css">
     <title>
@@ -32,8 +34,28 @@
         Kepler-186-f
     </button>
 </header>
-<body class="bodyB">
-  <h1>
-    Kepler-186-b
-  </h1>
+<body class="bodyHome">
+    <img src="https://i.ibb.co/GHNwGgB/image.png" class="backImg">
+    <i class="backImgS">source: "https://science.nasa.gov/exoplanet-catalog/kepler-186-b/"</i>
+    <h1 class="homeTitle">
+    Welcome to Kepler-186-B
+    </h1>
+    
 </body>
+<footer>
+    Latest info from nasa (as of 2024)
+</footer>
+
+<script>
+    function clickHome() {
+        
+        const newDiv = document.createElement("div");
+        const newButt = document.createElement("button");
+        newButt.textContent = "test"
+        document.body.appendChild(newDiv)
+        newDiv.appendChild(newButt);
+        newButt.onclick = function(){
+            onClick();
+        };
+    } 
+</script>
