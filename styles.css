@@ -1,4 +1,4 @@
-    .homeTitle {
+.homeTitle {
     font-family: Arial, Helvetica, sans-serif;
     stroke: black;
     stroke-width: 1px;
@@ -21,6 +21,156 @@
     color:brown;
     border: none;
     background-color: transparent;
+}
+
+.bodyA {
+    background-color: #121212;
+}
+
+.bodyB {
+    background-color: #121212;
+}
+
+.bodyC {
+    background-color: #121212;
+}
+
+.bodyD {
+    background-color: #121212;
+}
+
+.bodyE {
+    background-color: #121212;
+}
+
+.bodyF {
+    background-color: #121212;
+}
+
+.bTitle {
+    background-color: #121212;
+}
+
+.bImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.bSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
+}
+
+.cTitle {
+    background-color: #121212;
+}
+
+.cImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.cSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
+}
+
+.aTitle {
+    background-color: #121212;
+}
+
+.aImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.aSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
+}
+
+.dTitle {
+    background-color: #121212;
+}
+
+.dImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.dSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
+}
+
+.eTitle {
+    background-color: #121212;
+}
+
+.eImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.eSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
+}
+
+.fTitle {
+    background-color: #121212;
+}
+
+.fImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.fSource {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: rgba(114, 114, 114, 0.315);
+    margin-left: 5.5%;
+    font-size: x-small;
 }
 
 .aButton {
