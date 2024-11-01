@@ -6,7 +6,9 @@
     color: antiquewhite;
     z-index: 99;
 }
-
+body {
+    margin:0;
+}
 .bodyHome {
     background-color: #121212;
 }
