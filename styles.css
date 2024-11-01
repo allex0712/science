@@ -5,7 +5,7 @@
     stroke-width: 1px;
     color: antiquewhite;
     z-index: 99;
-    padding: 10px;
+    padding: 0px;
 }
 
 .bodyHome {
@@ -83,7 +83,7 @@
 }
 
 .backImg {
-    margin-top: 50%;
+    margin-top: 25%;
 }
 
 .backImgS {
