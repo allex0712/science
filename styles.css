@@ -9,6 +9,17 @@
     margin-left: 24%;
 }
 
+.calculatorsTitle {
+     font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: antiquewhite;
+    z-index: 99;
+    font-size: xxx-large;
+    margin-top: -13%;
+    margin-left: 24%;
+}
+
 .solarDesc {
     font-family: Arial, Helvetica, sans-serif;
     stroke: black;
