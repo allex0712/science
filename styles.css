@@ -22,6 +22,16 @@
     background-color: transparent;
 }
 
+.orange-box {
+  background-color: brown;     
+  padding: 20px;               
+  border-radius: 15px;          
+  width: 300px;                 
+  text-align: center;           
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 .bodyA {
     background-color: #121212;
 }
