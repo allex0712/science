@@ -15,6 +15,18 @@
     text-align: center;
 }
 
+.calculator2title {
+  font-size:large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator1title {
+  font-size:large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .calculator2 {
     width:40%;
 }
