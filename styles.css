@@ -37,8 +37,8 @@
   background-color: #121212;
   font-family: Arial, sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 50%;
+  margin-left: 50%;
   height: 100vh;
   margin: 0;
 }
