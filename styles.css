@@ -26,6 +26,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.planDesc {
+    margin-top:-50%;
+    margin-left:30%;
+    width:100px;
+}
+
 .calculator1title {
   font-size:x-large;
   color:antiquewhite;
