@@ -44,9 +44,18 @@
         Kepler-186 is a solar system that is 580 light years away from our earth. There are currently 5 known planets, including one called "Kepler-186-f" that was habitable until recent discoveries.
         This solar system is located in the constellation called "Cygnus".
     </p>
-
-    <input type="text" id="kmtoukp" name="kmtoukp" class="calculator">
-    <input type="text" id="ukptokm" name="ukptokm" class="calculator2">
+    <h3 class="calculatorsTitle">
+        Calculators:
+    </h3>
+    <label for="kmtokp">Km:</label>
+    <label for="uktokm">Uk:</label>
+    <input type="text" id="kmtokp" name="kmtokp" class="calculator" oninput="convertToKm()">
+    <br>
+    <p class="answeruk" id="answeruk"></p>
+    <br><br>
+    <input type="text" id="uktokm" name="uktokm" class="calculator2">
+    <br>
+    <p class="answerkm" id="answerkm"></p>
 </body>
 <footer>
     Here you can find recent infos about the solar system called "Kepler-186"
@@ -55,15 +64,8 @@
 </footer>
 
 <script>
-    function clickHome() {
-        
-        const newDiv = document.createElement("div");
-        const newButt = document.createElement("button");
-        newButt.textContent = "test"
-        document.body.appendChild(newDiv)
-        newDiv.appendChild(newButt);
-        newButt.onclick = function(){
-            onClick();
-        };
+    function convertToKm() {
+        const inputText = document.getElementById('uktokm').value;
+        document.getElementById("answerkm").InnerText = inputText*2
     } 
 </script>
