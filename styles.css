@@ -9,6 +9,12 @@
     margin-left: 24%;
 }
 
+.calculatorTab {
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
 .calculator2 {
     width:40%;
 }
@@ -18,10 +24,7 @@
 }
 
 .calculatorTab {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
+    align-items:middle;
 }
     
 .uklabel {
@@ -55,8 +58,6 @@
     color: antiquewhite;
     z-index: 99;
     font-size: xxx-large;
-    margin-top: 5%;
-    margin-left: 35%;
 }
 
 .solarDesc {
