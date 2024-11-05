@@ -14,7 +14,32 @@
 }
 
 .calculator {
+    vertical-align
     width:40%;
+}
+
+.uklabel {
+  font-size:x-large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.answeruk {
+  font-size:large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.answerkm {
+  font-size:large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.kmlabel {
+  font-size:x-large;
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .calculatorsTitle {
