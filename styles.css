@@ -323,3 +323,12 @@ footer {
   width: 1000px;
   height: 200px;
 }
+
+.pf {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+}
