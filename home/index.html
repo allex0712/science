@@ -48,13 +48,13 @@
         <h3 class="calculatorsTitle">
             Calculators:
         </h3>
-        <label for="kmtokp" class="kmlabel">Km:</label>
-        <input type="text" id="kmtokp" name="kmtokp" class="calculator" oninput="convertToKm()">
+        <label for="kmtouk" class="kmlabel">Km:</label>
+        <input type="text" id="kmtouk" name="kmtouk" class="calculator" oninput="convertToUk()">
         <br>
         <p class="answeruk" id="answeruk"></p>
         <br><br>
         <label for="uktokm" class="uklabel">Uk:</label>
-        <input type="text" id="uktokm" name="uktokm" class="calculator2">
+        <input type="text" id="uktokm" name="uktokm" class="calculator2" oninput="convertToKm()">
         <br>
         <p class="answerkm" id="answerkm"></p>
     </div>
@@ -69,5 +69,9 @@
     function convertToKm() {
         const inputText = document.getElementById('uktokm').value;
         document.getElementById("answerkm").innerText = inputText*2
+    } 
+    function convertToUk() {
+        const inputText = document.getElementById('kmtouk').value;
+        document.getElementById("answeruk").innerText = inputText/2
     } 
 </script>
