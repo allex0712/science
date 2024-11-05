@@ -23,52 +23,42 @@
 }
 
 .orange-box {
-  background-color: brown;     
-  padding: 20px;               
-  border-radius: 15px;          
+  background-color: brown;                
+  border-radius: 15px;     
   width: 80vw;
-  height: 90vh;
-  margin-top:100px;
-  margin-left: 200px;
+  padding:10px;
+  height: 80vh;
   text-align: center;
+  margin-top: 100px;
+  margin-left: 175px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 .bodyA {
+  padding:10px;
   background-color: #121212;
   font-family: Arial, sans-serif;
-  margin: 0;
 }
 
 .bodyB {
-  background-color: #121212;
-  font-family: Arial, sans-serif;
-  margin: 0;
+    background-color: #121212;
 }
 
 .bodyC {
-  background-color: #121212;
-  font-family: Arial, sans-serif;
-  margin: 0;
+    background-color: #121212;
 }
 
 .bodyD {
-  background-color: #121212;
-  font-family: Arial, sans-serif;
-  margin: 0;
+    background-color: #121212;
 }
 
 .bodyE {
-  background-color: #121212;
-  font-family: Arial, sans-serif;
-  margin: 0;
+    background-color: #121212;
 }
 
 .bodyF {
-  background-color: #121212;
-  font-family: Arial, sans-serif;
-  margin: 0;
+    background-color: #121212;
 }
 
 .bTitle {
@@ -94,6 +84,10 @@
 
 .cTitle {
     background-color: #121212;
+}
+
+.planImg {
+    margin-left:57.3%;
 }
 
 .cImage {
