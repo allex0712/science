@@ -88,7 +88,6 @@
     stroke: black;
     stroke-width: 1px;
     color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
     font-size: x-small;
 }
 
@@ -97,7 +96,7 @@
 }
 
 .planImg {
-  width: 80vw;
+    margin-left: -200px;
 }
 
 .cImage {
