@@ -26,9 +26,11 @@
   background-color: brown;     
   padding: 20px;               
   border-radius: 15px;          
-  width: 700px;
-  height: auto;
-  text-align: center;           
+  width: 80vw;
+  height: 90vh;
+  text-align: center;
+  margin-top: 50 px;
+  margin-left: 20 px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
