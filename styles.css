@@ -9,6 +9,17 @@
     margin-left: 24%;
 }
 
+.solarDesc {
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+    color: antiquewhite;
+    z-index: 99;
+    font-size: large;
+    margin-top: 30%;
+    margin-left: 12%;
+}
+
 .bodyHome {
     background-color: #121212;
 }
