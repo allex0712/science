@@ -16,6 +16,9 @@
     color: antiquewhite;
     z-index: 99;
     font-size: large;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right:5%;
 }
 
 .bodyHome {
