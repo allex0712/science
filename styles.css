@@ -14,10 +14,13 @@
 }
 
 .calculator {
-    vertical-align
     width:40%;
 }
 
+.calculatorTab {
+    align-items:middle;
+}
+    
 .uklabel {
   font-size:x-large;
   color:antiquewhite;
