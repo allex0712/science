@@ -9,6 +9,12 @@
     margin-left: 24%;
 }
 
+.planDesc {
+    margin-top:-50%;
+    width:100px;
+    margin-left:30%;
+}
+
 .headerHome {
     background-color: #121212;
     border-radius:10px;
