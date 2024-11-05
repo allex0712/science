@@ -287,3 +287,39 @@ footer {
   width: 1000px;
   height: 200px;
 }
+
+.pb {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+}
+
+.pc {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+}
+
+.pd {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+}
+
+.pe {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+}
