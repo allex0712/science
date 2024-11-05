@@ -52,7 +52,7 @@
         </h3>
         
         <h4 class="calculator1title">
-            Convert Uk to Km:
+            Convert Ukp to Km:
         </h4>
         <label for="kmtouk" class="kmlabel">Km:</label>
         <input type="text" id="kmtouk" name="kmtouk" class="calculator" oninput="convertToUk()">
@@ -60,7 +60,7 @@
         <p class="answeruk" id="answeruk"></p>
         <br><br>
         <h4 class="calculator2title">
-            Convert Km to Uk:
+            Convert Km to Ukp:
         </h4>
         <label for="uktokm" class="uklabel">Ukp:</label>
         <input type="text" id="uktokm" name="uktokm" class="calculator2" oninput="convertToKm()">
@@ -77,10 +77,10 @@
 <script>
     function convertToKm() {
         const inputText = document.getElementById('uktokm').value;
-        document.getElementById("answerkm").innerText = parseInt(inputText*2, 10) + " km"
+        document.getElementById("answerkm").innerText = parseInt(inputText*64800000, 10) + " km"
     } 
     function convertToUk() {
         const inputText = document.getElementById('kmtouk').value;
-        document.getElementById("answeruk").innerText = parseInt(inputText/2, 10) + " ukp"
+        document.getElementById("answeruk").innerText = parseInt(inputText/64800000, 10) + " ukp"
     } 
 </script>
