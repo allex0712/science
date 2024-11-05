@@ -28,9 +28,9 @@
   border-radius: 15px;          
   width: 80vw;
   height: 90vh;
+  margin-top:100px;
+  margin-left: 200px;
   text-align: center;
-  margin-top: 50 px;
-  margin-left: 20 px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,28 +38,37 @@
 .bodyA {
   background-color: #121212;
   font-family: Arial, sans-serif;
-  display: flex;
   margin: 0;
 }
 
 .bodyB {
-    background-color: #121212;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .bodyC {
-    background-color: #121212;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .bodyD {
-    background-color: #121212;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .bodyE {
-    background-color: #121212;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .bodyF {
-    background-color: #121212;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .bTitle {
