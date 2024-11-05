@@ -9,6 +9,11 @@
     margin-left: 24%;
 }
 
+.orContent {
+    width: 80vw;
+    height: 70vh;
+}
+
 .calculatorTab {
     justify-content:center;
     align-items: center;
@@ -363,46 +368,21 @@ footer {
 }
 
 .pb {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+  padding-right:15%;
 }
 
 .pc {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+  padding-right:15%;
 }
 
 .pd {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+  padding-right:15%;
 }
 
 .pe {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+  padding-right:15%;
 }
 
 .pf {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+  padding-right:15%;
 }
