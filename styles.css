@@ -18,7 +18,10 @@
 }
 
 .calculatorTab {
-    align-items:middle;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
     
 .uklabel {
