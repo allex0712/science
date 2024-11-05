@@ -9,6 +9,14 @@
     margin-left: 24%;
 }
 
+.headerHome {
+    background-color: #121212;
+    border-radius:10px;
+    margin-top:0px;
+    height:80px;
+    width:200vh;
+}
+
 .orContent {
     width: 80vw;
     height: 70vh;
@@ -24,12 +32,6 @@
   font-size:x-large;
   color:antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.planDesc {
-    margin-top:-50%;
-    margin-left:30%;
-    width:100px;
 }
 
 .calculator1title {
@@ -122,6 +124,7 @@
 
 
 .bodyA {
+  background-image: url("https://images.unsplash.com/photo-1628498188904-036f5e25e93e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   padding:10px;
   background-color: #121212;
   font-family: Arial, sans-serif;
