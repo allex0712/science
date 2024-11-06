@@ -5,7 +5,7 @@
     color: antiquewhite;
     z-index: 99;
     font-size: 5vw;
-    margin-top:5%;
+    margin-top:5vh;
     text-align:center;
 }
 
@@ -25,6 +25,7 @@
     border-radius:2vh;
     height:10vh;
     width:97vw;
+    overflow: hidden;
 }
 
 .orContent {
@@ -266,6 +267,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .bButton {
@@ -273,6 +276,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .cButton {
@@ -280,6 +285,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .dButton {
@@ -287,6 +294,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .eButton {
@@ -294,6 +303,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .fButton {
@@ -301,6 +312,8 @@
     color:brown;
     border: none;
     background-color: transparent;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .imageFrame {
