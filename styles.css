@@ -4,7 +4,7 @@
     stroke-width: 1px;
     color: antiquewhite;
     z-index: 99;
-    font-size: xxx-large;
+    font-size: 5vw;
     margin-top:5%;
     text-align:center;
 }
@@ -100,7 +100,7 @@
     stroke-width: 1px;
     color: antiquewhite;
     z-index: 99;
-    font-size: large;
+    font-size: 2vw;
     margin-top: 15%;
     margin-left: 5%;
     margin-right:5%;
@@ -324,7 +324,20 @@
     background-color: transparent;
 }
 
+.imageFrame {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  width:50%;
+}
+
 .backImg {
+    background-color:#121212;
+    border: 2px solid #b7b7b7;
+    border-radius: 10px;
+    transform: scale(1.6);
+    margin-bottom: 5%;
 }
 
 .backImgS {
@@ -332,8 +345,7 @@
     stroke: black;
     stroke-width: 1px;
     color: rgba(114, 114, 114, 0.315);
-    font-size: x-small;
-    text-align:center;
+    font-size: 1vw;
 }
 
 footer {
