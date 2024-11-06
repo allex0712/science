@@ -107,8 +107,9 @@
   background-color: brown;                
   border-radius: 2vh;     
   width: 80vw;
-  padding:1vh;
-  margin-left: 7vw;
+  max-height: 100vh; 
+  padding:10px;
+  margin-left: 7.5%;
   text-align: center;
   margin-top: 3vh;
 }
