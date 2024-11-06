@@ -256,6 +256,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .homeButton {
+        font-size: 2vw; 
+        padding-right: 3vw 
+    }
     .aButton {
         font-size: 2vw;
     }
@@ -278,6 +282,10 @@ footer {
 
 /* Media Query for very small screens (up to 400px) */
 @media (max-width: 400px) {
+    .homeButton {
+        font-size: 1vw; 
+        padding-right: 2vw 
+    }
     .aButton {
         font-size: 1vw; 
     }
@@ -295,5 +303,30 @@ footer {
     }
     .fButton {
         font-size: 1vw; 
+    }
+}
+
+@media (max-width: 800px) {
+    .homeButton {
+        font-size: 2.1vw; 
+        padding-right: 2vw 
+    }
+    .aButton {
+        font-size: 2.1vw; 
+    }
+    .bButton {
+        font-size: 2.1vw; 
+    }
+    .cButton {
+        font-size: 2.1vw;  
+    }
+    .dButton {
+        font-size: 2.1vw; 
+    }
+    .eButton {
+        font-size: 2.1vw; 
+    }
+    .fButton {
+        font-size: 2.1vw; 
     }
 }
