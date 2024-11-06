@@ -258,29 +258,29 @@ footer {
 @media (max-width: 600px) {
     
     .planDesc {
-        font-size:2vw;
+        font-size:1.3vw;
     }
     .homeButton {
-        font-size: 2vw; 
+        font-size: 1.3vw; 
         padding-right: 3vw 
     }
     .aButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .bButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .cButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .dButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .eButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .fButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
 }
 
@@ -319,25 +319,25 @@ footer {
         font-size:2vw;
     }
     .homeButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
         padding-right: 2vw 
     }
     .aButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
     }
     .bButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
     }
     .cButton {
-        font-size: 2.1vw;  
+        font-size: 2vw;  
     }
     .dButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
     }
     .eButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
     }
     .fButton {
-        font-size: 2.1vw; 
+        font-size: 2vw; 
     }
 }
