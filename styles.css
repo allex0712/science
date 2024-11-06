@@ -19,11 +19,14 @@
 }
 
 .headerHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #121212;
     border-radius:10px;
     margin-top:0px;
     height:80px;
-    width:200vh;
+    width:97vw;
 }
 
 .orContent {
@@ -38,13 +41,13 @@
 }
 
 .calculator2title {
-  font-size:x-large;
+  font-size:2vw;
   color:antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .calculator1title {
-  font-size:x-large;
+  font-size:2vw;
   color:antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -91,7 +94,7 @@
     stroke-width: 1px;
     color: antiquewhite;
     z-index: 99;
-    font-size: xxx-large;
+    font-size: 4vw;
 }
 
 .solarDesc {
@@ -272,7 +275,6 @@
 }
 
 .aButton {
-    margin-left: 3%;
     font-size:x-large;
     color:brown;
     border: none;
@@ -280,8 +282,6 @@
 }
 
 .bButton {
-    margin-top: 1%;
-    margin-left: 1%;
     font-size:x-large;
     color:brown;
     border: none;
@@ -289,8 +289,6 @@
 }
 
 .cButton {
-    margin-top: 1%;
-    margin-left: 1%;
     font-size:x-large;
     color:brown;
     border: none;
@@ -298,8 +296,6 @@
 }
 
 .dButton {
-    margin-top: 1%;
-    margin-left: 1%;
     font-size:x-large;
     color:brown;
     border: none;
@@ -307,8 +303,6 @@
 }
 
 .eButton {
-    margin-top: 1%;
-    margin-left: 1%;
     font-size:x-large;
     color:brown;
     border: none;
@@ -316,8 +310,6 @@
 }
 
 .fButton {
-    margin-top: 1%;
-    margin-left: 1%;
     font-size:x-large;
     color:brown;
     border: none;
