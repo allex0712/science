@@ -2,6 +2,7 @@
 
 <header class="headerHome">
     <link rel="stylesheet" type="text/css" href="/science/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bignumber.js@9.1.1/bignumber.min.js"></script>
     <title>
         Projet
     </title>
@@ -74,23 +75,26 @@
     Private project made by <a href="https://github.com/alleexx129">Alex</a>
 </footer>
 
-<script>
+<script src="https://cdn.jsdelivr.net/npm/bignumber.js@9.1.1/bignumber.min.js">
     function convertToKm() {
-        const inputText = document.getElementById('uktokm').value;
-        const result = parseFloat(inputText) * 64800000;
-        if (result > 99999) {
-            document.getElementById("answerkm").innerText = result.toExponential(2) + " km";
-        } else {
-            document.getElementById("answerkm").innerText = result.toFixed(2) + " km";
-        };
-    } 
-    function convertToUk() {
-        const inputText = document.getElementById('kmtouk').value;
-        const result = parseFloat(inputText) / 64800000;
-        if (result > 99999) {
-            document.getElementById("answeruk").innerText = result.toExponential(2) + " ukp";
-        } else {
-            document.getElementById("answeruk").innerText = result.toFixed(2) + " ukp";
-        };
-    } 
+            const inputText = document.getElementById('uktokm').value;
+            const result = new BigNumber(inputText).times(64800000); 
+
+            if (result.isGreaterThan(99999)) { 
+                document.getElementById("answerkm").innerText = result.toExponential(2) + " km"; 
+            } else {
+                document.getElementById("answerkm").innerText = result.toFixed(2) + " km";
+            }
+        }
+
+        function convertToUk() {
+            const inputText = document.getElementById('kmtouk').value;
+            const result = new BigNumber(inputText).div(64800000);
+
+            if (result.isGreaterThan(99999)) {
+                document.getElementById("answeruk").innerText = result.toExponential(2) + " ukp"; 
+            } else {
+                document.getElementById("answeruk").innerText = result.toFixed(2) + " ukp"; 
+            }
+        }
 </script>
