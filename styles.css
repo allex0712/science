@@ -256,6 +256,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+    
+    .planDesc {
+        font-size:2vw;
+    }
     .homeButton {
         font-size: 2vw; 
         padding-right: 3vw 
@@ -282,6 +286,10 @@ footer {
 
 /* Media Query for very small screens (up to 400px) */
 @media (max-width: 400px) {
+    
+    .planDesc {
+        font-size:1vw;
+    }
     .homeButton {
         font-size: 1vw; 
         padding-right: 2vw 
@@ -307,6 +315,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+    .planDesc {
+        font-size:2vw;
+    }
     .homeButton {
         font-size: 2.1vw; 
         padding-right: 2vw 
