@@ -24,12 +24,8 @@
     align-items: center;
     background-color: #121212;
     border-radius:2vh;
-    margin-top:0px;
     height:10vh;
     width:97vw;
-}
-
-.headerHome > * {
 }
 
 .orContent {
