@@ -191,8 +191,8 @@
     stroke-width: 1px;
     color: rgba(114, 114, 114, 0.315);
     font-size: x-small;
-    margin-left:10%;
     float:left;
+    margin-left:20%;
 }
 
 .cTitle {
@@ -204,7 +204,9 @@
     border: 4px solid #b7b7b7;
     border-radius: 7%;
     margin-left:5%;
-    width:80%;
+    max-width:500px;
+    max-height:800px;
+    width:80%
 }
 
 .cImage {
