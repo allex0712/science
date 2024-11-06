@@ -80,7 +80,9 @@
             const inputText = document.getElementById('uktokm').value;
             const result = new BigNumber(inputText).times(64800000); 
 
-            if (result.isGreaterThan(99999)) { 
+            if (!result.isFinite()) {
+                document.getElementById("answerkm").innerText = "Number is too large!"; 
+            } else if (result.isGreaterThan(99999)) {
                 document.getElementById("answerkm").innerText = result.toExponential(2) + " km"; 
             } else {
                 document.getElementById("answerkm").innerText = result.toFixed(2) + " km";
@@ -91,7 +93,9 @@
             const inputText = document.getElementById('kmtouk').value;
             const result = new BigNumber(inputText).div(64800000);
 
-            if (result.isGreaterThan(99999)) {
+            if (!result.isFinite()) {
+                document.getElementById("answeruk").innerText = "Number is too large!"; 
+            } else if (result.isGreaterThan(99999)) {
                 document.getElementById("answeruk").innerText = result.toExponential(2) + " ukp"; 
             } else {
                 document.getElementById("answeruk").innerText = result.toFixed(2) + " ukp"; 
