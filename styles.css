@@ -11,11 +11,10 @@
 
 .planDesc {
     text-align:left;
-    float:left;
-    margin-left:-15%;
-    font-size:large;
+    max-width:40vw;
+    float:right;
+    font-size:3vh;
     font-family: Arial, Helvetica, sans-serif;
-    max-width:50%;
 }
 
 .headerHome {
@@ -209,12 +208,9 @@
 
 .planImg {
     background-color:#121212;
-    border: 4px solid #b7b7b7;
-    border-radius: 7%;
-    margin-left:5%;
-    max-width:500px;
-    max-height:800px;
-    width:80%
+    border: 0.5vh solid #b7b7b7;
+    border-radius: 2vh;
+    width:30vw;
 }
 
 .cImage {
@@ -345,33 +341,4 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     color: aliceblue;
-}
-
-.pa {
-  border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
-}
-
-.pb {
-  padding-right:15%;
-}
-
-.pc {
-  padding-right:15%;
-}
-
-.pd {
-  padding-right:15%;
-}
-
-.pe {
-  padding-right:15%;
-}
-
-.pf {
-  padding-right:15%;
 }
