@@ -50,11 +50,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.calculator2 {
-    width:40vw;
-    height: 5vh;
-}
-
 .calculator {
     width:40vw;
     height: 5vh;
@@ -161,17 +156,6 @@
   font-family: Arial, sans-serif;
 }
 
-.bTitle {
-    background-color: #121212;
-}
-
-.bImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
-}
 
 .imgSource {
     font-family: Arial, Helvetica, sans-serif;
@@ -183,71 +167,11 @@
     margin-left:20%;
 }
 
-.cTitle {
-    background-color: #121212;
-}
-
 .planImg {
     background-color:#121212;
     border: 0.5vh solid #b7b7b7;
     border-radius: 2vh;
     width:30vw;
-}
-
-.cImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
-}
-
-.aTitle {
-    background-color: #121212;
-}
-
-.aImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
-}
-
-.dTitle {
-    background-color: #121212;
-}
-
-.dImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
-}
-
-.eTitle {
-    background-color: #121212;
-}
-
-.eImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
-}
-
-.fTitle {
-    background-color: #121212;
-}
-
-.fImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 20%;
 }
 
 .aButton {
