@@ -185,7 +185,7 @@
     margin-top: 20%;
 }
 
-.bSource {
+.imgSource {
     font-family: Arial, Helvetica, sans-serif;
     stroke: black;
     stroke-width: 1px;
@@ -215,15 +215,6 @@
     margin-top: 20%;
 }
 
-.cSource {
-    font-family: Arial, Helvetica, sans-serif;
-    stroke: black;
-    stroke-width: 1px;
-    color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
-    font-size: x-small;
-}
-
 .aTitle {
     background-color: #121212;
 }
@@ -234,15 +225,6 @@
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 20%;
-}
-
-.aSource {
-    font-family: Arial, Helvetica, sans-serif;
-    stroke: black;
-    stroke-width: 1px;
-    color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
-    font-size: x-small;
 }
 
 .dTitle {
@@ -257,15 +239,6 @@
     margin-top: 20%;
 }
 
-.dSource {
-    font-family: Arial, Helvetica, sans-serif;
-    stroke: black;
-    stroke-width: 1px;
-    color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
-    font-size: x-small;
-}
-
 .eTitle {
     background-color: #121212;
 }
@@ -278,15 +251,6 @@
     margin-top: 20%;
 }
 
-.eSource {
-    font-family: Arial, Helvetica, sans-serif;
-    stroke: black;
-    stroke-width: 1px;
-    color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
-    font-size: x-small;
-}
-
 .fTitle {
     background-color: #121212;
 }
@@ -297,15 +261,6 @@
     margin-right: auto;
     margin-bottom: 0;
     margin-top: 20%;
-}
-
-.fSource {
-    font-family: Arial, Helvetica, sans-serif;
-    stroke: black;
-    stroke-width: 1px;
-    color: rgba(114, 114, 114, 0.315);
-    margin-left: 5.5%;
-    font-size: x-small;
 }
 
 .aButton {
