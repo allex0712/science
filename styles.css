@@ -23,9 +23,9 @@
     grid-template-columns: repeat(9, 0.1fr);
     align-items: center;
     background-color: #121212;
-    border-radius:10px;
+    border-radius:2vh;
     margin-top:0px;
-    height:80px;
+    height:10vh;
     width:97vw;
 }
 
@@ -124,7 +124,7 @@
 .homeButton {
     margin-top: 1%;
     margin-left: 2%;
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
@@ -278,42 +278,42 @@
 }
 
 .aButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
 }
 
 .bButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
 }
 
 .cButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
 }
 
 .dButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
 }
 
 .eButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
 }
 
 .fButton {
-    font-size:x-large;
+    font-size:3vh;
     color:brown;
     border: none;
     background-color: transparent;
