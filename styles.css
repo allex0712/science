@@ -254,3 +254,46 @@ footer {
     font-size: large;
     color: aliceblue;
 }
+
+@media (max-width: 600px) {
+    .aButton {
+        font-size: 2vw;
+    }
+    .bButton {
+        font-size: 2vw;
+    }
+    .cButton {
+        font-size: 2vw;
+    }
+    .dButton {
+        font-size: 2vw;
+    }
+    .eButton {
+        font-size: 2vw;
+    }
+    .fButton {
+        font-size: 2vw;
+    }
+}
+
+/* Media Query for very small screens (up to 400px) */
+@media (max-width: 400px) {
+    .aButton {
+        font-size: 1vw; 
+    }
+    .bButton {
+        font-size: 1vw; 
+    }
+    .cButton {
+        font-size: 1vw;  
+    }
+    .dButton {
+        font-size: 1vw; 
+    }
+    .eButton {
+        font-size: 1vw; 
+    }
+    .fButton {
+        font-size: 1vw; 
+    }
+}
