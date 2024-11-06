@@ -77,10 +77,12 @@
 <script>
     function convertToKm() {
         const inputText = document.getElementById('uktokm').value;
-        document.getElementById("answerkm").innerText = parseInt(inputText*64800000, 10) + " km"
+        const result = parseFloat(inputText) * 64800000;
+        document.getElementById("answerkm").innerText = result.toFixed(2) + " km";
     } 
     function convertToUk() {
         const inputText = document.getElementById('kmtouk').value;
-        document.getElementById("answeruk").innerText = parseInt(inputText/64800000, 10) + " ukp"
+        const result = parseFloat(inputText) / 64800000;
+        document.getElementById("answeruk").innerText = result.toFixed(2) + " ukp";
     } 
 </script>
